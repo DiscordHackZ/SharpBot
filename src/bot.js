@@ -66,7 +66,7 @@ class SharpBot extends Client {
         this.shuttingDown = false;
         this.utils = global.utils = require('./utils');
 
-        // Event listeners
+        // Events listeners
         this.on('ready', () => {
             if (this.user.bot) {
                 logger.severe(`SharpBot is a selfbot, but you entered a bot token. Please follow the instructions at ${chalk.green('https://github.com/RayzrDev/SharpBot#getting-your-user-token')} and re-enter your token by running ${chalk.green('sharpbot --config')}.`);
